@@ -1,0 +1,6 @@
+numBilletes = int(input("numBilletes:"))
+valorBillete = int(input("valorBillete:"))
+numMonedas = int(input("numMonedas:"))
+valorMonedas = int(input("valorMonedas:"))
+total = (numBilletes*valorBillete)+(numMonedas*valorMonedas)
+print("El total es :", total)
