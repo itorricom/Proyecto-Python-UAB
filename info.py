@@ -9,6 +9,7 @@
 
 # Funciones Lambda: +++++++++++++++++++++
 
+import numpy as np
 def doblar(num): return num*2
 
 
@@ -97,3 +98,5 @@ listaEmpleadosComision = map(calculo_comision, listaEmpleado)
 
 for empleado in listaEmpleadosComision:
     print(empleado)
+
+# +++++++++++++++++++++++++++++
